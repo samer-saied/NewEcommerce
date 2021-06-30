@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "220990185657",
+    "project_id": "eldokana-shop",
+    "storage_bucket": "eldokana-shop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:220990185657:android:423791ee6e1b1ee016fb68",
+        "android_client_info": {
+          "package_name": "com.samersaied.app.ecommerceproject2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "220990185657-elkib6ulkq8gs1jfbe68umj9vqb7t4u5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.samersaied.app.ecommerceproject2",
+            "certificate_hash": "863cc0c8a8e68b23fd59cb219bf7cd9d3debb315"
+          }
+        },
+        {
+          "client_id": "220990185657-3g0gp64i04dnjg0to03v59bcftfl4np9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAvN3OuAnr9uGO241GfMkY_oSgNIIgbRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "220990185657-3g0gp64i04dnjg0to03v59bcftfl4np9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

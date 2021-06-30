@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>220990185657-2ivoqsq0hqmm45pv1g0fij3bj16i96mg.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.220990185657-2ivoqsq0hqmm45pv1g0fij3bj16i96mg</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>220990185657-elkib6ulkq8gs1jfbe68umj9vqb7t4u5.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDYfsXsvKRMNG2-pg3IU4QBPmbZP_zJzY0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>220990185657</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.samersaied.app.ecommerceproject2</string>
+	<key>PROJECT_ID</key>
+	<string>eldokana-shop</string>
+	<key>STORAGE_BUCKET</key>
+	<string>eldokana-shop.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:220990185657:ios:972fc583b4c9973016fb68</string>
+</dict>
+</plist>
