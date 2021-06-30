@@ -28,6 +28,7 @@ class MyApp extends StatelessWidget {
         title: 'Eldokana',
         theme: lightThemeData,
         home: BoardScreen(),
+        //////////////////
         routes: {
           '/boardScreen': (context) => BoardScreen(),
           '/homeScreen': (context) => MyHomePage(),
