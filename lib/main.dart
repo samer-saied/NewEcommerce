@@ -29,6 +29,7 @@ class MyApp extends StatelessWidget {
         theme: lightThemeData,
         home: BoardScreen(),
         //////////////////
+        /////////////
         routes: {
           '/boardScreen': (context) => BoardScreen(),
           '/homeScreen': (context) => MyHomePage(),
