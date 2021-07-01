@@ -1,4 +1,4 @@
-part of 'ecommercecubit_cubit.dart';
+part of 'ecommerce_cubit.dart';
 
 @immutable
 abstract class EcommerceState {}

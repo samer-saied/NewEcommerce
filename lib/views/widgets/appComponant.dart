@@ -1,5 +1,5 @@
 import 'package:ecommerceproject/const/appConst.dart';
-import 'package:ecommerceproject/cubit/ecommercecubit_cubit.dart';
+import 'package:ecommerceproject/cubit/ecommerceApp/ecommerce_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

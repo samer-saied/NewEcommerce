@@ -1,4 +1,4 @@
-import 'package:ecommerceproject/cubit/ecommercecubit_cubit.dart';
+import 'package:ecommerceproject/cubit/ecommerceApp/ecommerce_cubit.dart';
 import 'package:ecommerceproject/views/widgets/appComponant.dart';
 import 'package:ecommerceproject/views/widgets/homecomponant.dart';
 import 'package:flutter/material.dart';

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 Color mainColor = Colors.red;
 final Color slaveColor = Colors.grey.shade200;
@@ -12,6 +13,7 @@ Color backColor = slaveColor; //Colors.amber;
 
 var lightThemeData = ThemeData(
   fontFamily: "Poppins",
+  appBarTheme: AppBarTheme(systemOverlayStyle: SystemUiOverlayStyle()),
   textTheme: TextTheme(
     // headline3: TextStyle(
     //     fontSize: 25, fontWeight: FontWeight.w700, color: Colors.black),

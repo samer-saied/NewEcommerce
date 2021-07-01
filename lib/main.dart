@@ -1,8 +1,10 @@
 import 'package:bloc/bloc.dart';
+import 'package:ecommerceproject/cubit/auth/authapp_cubit.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'const/appConst.dart';
-import 'cubit/ecommercecubit_cubit.dart';
+import 'package:ecommerceproject/cubit/ecommerceApp/ecommerce_cubit.dart';
 import 'cubit/observe.dart';
+import 'services/FirebaseConnect.dart';
 import 'views/screens/detailsScreen.dart';
 import 'views/screens/homeScreen.dart';
 import 'package:flutter/material.dart';
@@ -12,7 +14,8 @@ import 'views/screens/loginScreen.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+  //await Firebase.initializeApp();
+  await FirebaseService.initializeFlutterFire();
   Bloc.observer = MyBlocObserver();
   runApp(MyApp());
 }
@@ -20,14 +23,21 @@ Future<void> main() async {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return BlocProvider(
-      create: (context) => EcommerceCubit(),
+    return MultiBlocProvider(
+      providers: [
+        BlocProvider(
+          create: (context) => EcommerceCubit(),
+        ),
+        BlocProvider(
+          create: (context) => AuthappCubit(),
+        ),
+      ],
       child: MaterialApp(
         color: mainColor,
         debugShowCheckedModeBanner: false,
         title: 'Eldokana',
         theme: lightThemeData,
-        home: BoardScreen(),
+        home: LoginScreen(),
         //////////////////
         /////////////
         ///

@@ -4,7 +4,7 @@ import 'package:ecommerceproject/models/products.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:meta/meta.dart';
 
-part 'ecommercecubit_state.dart';
+part 'ecommerce_state.dart';
 
 class EcommerceCubit extends Cubit<EcommerceState> {
   EcommerceCubit() : super(EcommerceInitial());
